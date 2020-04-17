@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Try.Redis472.Autofac.Web", "Try.Redis472.Autofac.Web\Try.Redis472.Autofac.Web.csproj", "{647F20E9-9CB5-4B7E-A632-1919BA3EFB60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Try.Redis472.Services", "Try.Redis472.Services\Try.Redis472.Services.csproj", "{D386EEF7-803D-4667-9826-C308D6214C1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Try.Redis472.Autofac.Console", "Try.Redis472.Autofac.Console\Try.Redis472.Autofac.Console.csproj", "{65C6E2E2-7809-44D9-97A5-C477DACCDC8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Try.Redis472.Autofac.DependencyResolution", "Try.Redis472.Autofac.DependencyResolution\Try.Redis472.Autofac.DependencyResolution.csproj", "{6430FBBE-0433-4599-A339-90AC3F287FAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{647F20E9-9CB5-4B7E-A632-1919BA3EFB60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{647F20E9-9CB5-4B7E-A632-1919BA3EFB60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{647F20E9-9CB5-4B7E-A632-1919BA3EFB60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{647F20E9-9CB5-4B7E-A632-1919BA3EFB60}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D386EEF7-803D-4667-9826-C308D6214C1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D386EEF7-803D-4667-9826-C308D6214C1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D386EEF7-803D-4667-9826-C308D6214C1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D386EEF7-803D-4667-9826-C308D6214C1C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65C6E2E2-7809-44D9-97A5-C477DACCDC8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65C6E2E2-7809-44D9-97A5-C477DACCDC8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65C6E2E2-7809-44D9-97A5-C477DACCDC8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65C6E2E2-7809-44D9-97A5-C477DACCDC8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6430FBBE-0433-4599-A339-90AC3F287FAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6430FBBE-0433-4599-A339-90AC3F287FAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6430FBBE-0433-4599-A339-90AC3F287FAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6430FBBE-0433-4599-A339-90AC3F287FAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
