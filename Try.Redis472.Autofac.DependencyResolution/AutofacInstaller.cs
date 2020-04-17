@@ -1,8 +1,8 @@
-﻿namespace Try.Redis472.Autofac.DependencyResolution
+namespace Try.Redis472.Autofac.DependencyResolution
 {
     using global::Autofac;
     using Microsoft.Extensions.Caching.Distributed;
-    using Microsoft.Extensions.Caching.Redis;
+    using Microsoft.Extensions.Caching.StackExchangeRedis;
     using Services;
 
     public static class AutofacInstaller

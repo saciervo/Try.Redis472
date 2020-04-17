@@ -32,8 +32,8 @@
         <WarningLevel>4</WarningLevel>
     </PropertyGroup>
     <ItemGroup>
-        <Reference Include="Autofac, Version=5.0.0.0, Culture=neutral, PublicKeyToken=17863af14b0044da">
-          <HintPath>..\packages\Autofac.5.0.0\lib\net461\Autofac.dll</HintPath>
+        <Reference Include="Autofac, Version=5.1.2.0, Culture=neutral, PublicKeyToken=17863af14b0044da">
+          <HintPath>..\packages\Autofac.5.1.2\lib\net461\Autofac.dll</HintPath>
           <Private>True</Private>
         </Reference>
         <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=1.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
@@ -45,20 +45,12 @@
           <HintPath>..\packages\Microsoft.Extensions.Caching.Abstractions.3.1.3\lib\netstandard2.0\Microsoft.Extensions.Caching.Abstractions.dll</HintPath>
           <Private>True</Private>
         </Reference>
-        <Reference Include="Microsoft.Extensions.Caching.Memory, Version=3.1.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60">
-          <HintPath>..\packages\Microsoft.Extensions.Caching.Memory.3.1.3\lib\netstandard2.0\Microsoft.Extensions.Caching.Memory.dll</HintPath>
-          <Private>True</Private>
-        </Reference>
-        <Reference Include="Microsoft.Extensions.Caching.Redis, Version=2.2.0.0, Culture=neutral, PublicKeyToken=adb9793829ddae60">
-          <HintPath>..\packages\Microsoft.Extensions.Caching.Redis.2.2.0\lib\netstandard2.0\Microsoft.Extensions.Caching.Redis.dll</HintPath>
+        <Reference Include="Microsoft.Extensions.Caching.StackExchangeRedis, Version=3.1.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60">
+          <HintPath>..\packages\Microsoft.Extensions.Caching.StackExchangeRedis.3.1.3\lib\netstandard2.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll</HintPath>
           <Private>True</Private>
         </Reference>
         <Reference Include="Microsoft.Extensions.DependencyInjection.Abstractions, Version=3.1.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60">
           <HintPath>..\packages\Microsoft.Extensions.DependencyInjection.Abstractions.3.1.3\lib\netstandard2.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll</HintPath>
-          <Private>True</Private>
-        </Reference>
-        <Reference Include="Microsoft.Extensions.Logging.Abstractions, Version=3.1.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60">
-          <HintPath>..\packages\Microsoft.Extensions.Logging.Abstractions.3.1.3\lib\netstandard2.0\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
           <Private>True</Private>
         </Reference>
         <Reference Include="Microsoft.Extensions.Options, Version=3.1.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60">
@@ -70,13 +62,17 @@
           <Private>True</Private>
         </Reference>
         <Reference Include="mscorlib" />
-        <Reference Include="StackExchange.Redis.StrongName, Version=1.2.6.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46">
-          <HintPath>..\packages\StackExchange.Redis.StrongName.1.2.6\lib\net46\StackExchange.Redis.StrongName.dll</HintPath>
+        <Reference Include="Pipelines.Sockets.Unofficial, Version=1.0.0.0, Culture=neutral, PublicKeyToken=42ea0a778e13fbe2">
+          <HintPath>..\packages\Pipelines.Sockets.Unofficial.2.1.8\lib\net472\Pipelines.Sockets.Unofficial.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="StackExchange.Redis, Version=2.0.0.0, Culture=neutral, PublicKeyToken=c219ff1ca8c2ce46">
+          <HintPath>..\packages\StackExchange.Redis.2.1.30\lib\net472\StackExchange.Redis.dll</HintPath>
           <Private>True</Private>
         </Reference>
         <Reference Include="System" />
         <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
-          <HintPath>..\packages\System.Buffers.4.5.0\lib\netstandard2.0\System.Buffers.dll</HintPath>
+          <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
           <Private>True</Private>
         </Reference>
         <Reference Include="System.ComponentModel.Annotations, Version=4.2.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
@@ -87,9 +83,20 @@
         <Reference Include="System.ComponentModel.DataAnnotations" />
         <Reference Include="System.Core" />
         <Reference Include="System.Data" />
-        <Reference Include="System.IO.Compression" />
+        <Reference Include="System.Diagnostics.PerformanceCounter, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
+          <HintPath>..\packages\System.Diagnostics.PerformanceCounter.4.7.0\lib\net461\System.Diagnostics.PerformanceCounter.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="System.IO.Compression, Version=4.1.2.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+          <HintPath>..\packages\System.IO.Compression.4.3.0\lib\net46\System.IO.Compression.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
+        <Reference Include="System.IO.Pipelines, Version=4.0.2.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
+          <HintPath>..\packages\System.IO.Pipelines.4.7.1\lib\netstandard2.0\System.IO.Pipelines.dll</HintPath>
+          <Private>True</Private>
+        </Reference>
         <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
-          <HintPath>..\packages\System.Memory.4.5.3\lib\netstandard2.0\System.Memory.dll</HintPath>
+          <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
           <Private>True</Private>
         </Reference>
         <Reference Include="System.Numerics" />
@@ -101,20 +108,12 @@
           <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.4.7.1\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
           <Private>True</Private>
         </Reference>
-        <Reference Include="System.Text.Encodings.Web, Version=4.0.5.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
-          <HintPath>..\packages\System.Text.Encodings.Web.4.7.0\lib\netstandard2.0\System.Text.Encodings.Web.dll</HintPath>
+        <Reference Include="System.Threading.Channels, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
+          <HintPath>..\packages\System.Threading.Channels.4.7.0\lib\netstandard2.0\System.Threading.Channels.dll</HintPath>
           <Private>True</Private>
         </Reference>
-        <Reference Include="System.Text.Json, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
-          <HintPath>..\packages\System.Text.Json.4.7.1\lib\net461\System.Text.Json.dll</HintPath>
-          <Private>True</Private>
-        </Reference>
-        <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
-          <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.2\lib\netstandard2.0\System.Threading.Tasks.Extensions.dll</HintPath>
-          <Private>True</Private>
-        </Reference>
-        <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
-          <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+        <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51">
+          <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
           <Private>True</Private>
         </Reference>
         <Reference Include="System.Xml" />
@@ -125,13 +124,13 @@
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <ItemGroup>
-      <None Include="packages.config" />
-    </ItemGroup>
-    <ItemGroup>
       <ProjectReference Include="..\Try.Redis472.Services\Try.Redis472.Services.csproj">
         <Project>{d386eef7-803d-4667-9826-c308d6214c1c}</Project>
         <Name>Try.Redis472.Services</Name>
       </ProjectReference>
+    </ItemGroup>
+    <ItemGroup>
+      <None Include="packages.config" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
